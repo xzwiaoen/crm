@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="upLoad"
+  id="myeclipse.1384829896694"
+  context-root="/upLoad"
+  j2ee-spec="6.0"
+  archive="upLoad.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+
