@@ -17,7 +17,7 @@ import org.apache.struts2.convention.annotation.Namespace;
 import org.apache.struts2.convention.annotation.ParentPackage;
 
 import xiao.pageModel.Grid;
-import xiao.pageModel.Json;
+import xiao.pageModel.base.Json;
 import xiao.service.BaseServiceI;
 import xiao.util.BeanUtils;
 import xiao.util.FastjsonFilter;
@@ -39,6 +39,7 @@ import com.opensymphony.xwork2.ActionSupport;
  */
 @ParentPackage("basePackage")
 @Namespace("/")
+@Action
 public class BaseAction<T> extends ActionSupport {
 	private static final Logger logger = Logger.getLogger(BaseAction.class);
 
